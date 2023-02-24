@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<form action="loginphp.php" method="post">
+<body>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope" class="ng-scope">
+    <!--Side Bar-->
+    <div class="sidebar">
+        <div class="sidebar-photo">
+           <img src="viewbanner.png">
+     </div>
+    </div>
+    <div class="content">
+        <img src="tc.jpg">
+        <h3>Thiagarajar College</h3>
+       <h2>Login to Mycamu </h2>
+       <div class="login1">
+       <label>Username</label><br>
+       <input type="text" placeholder="Register email-id" name="username" required>
+       <br></br>
+       <label>Password</label><br>
+       <input type="password" placeholder="Password" name="password" required>
+    </div>
+    <br>
+    <a href="#">Forgot password?</a>
+    <br></br>
+    <button>Login</a></button>
+    <h4>
+        <?php
+
+        error_reporting(0);
+
+        echo $_SESSION['loginmessage'];
+    </h4>
+        
+</body>
+</form>
+</html>
