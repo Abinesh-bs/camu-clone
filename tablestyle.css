@@ -1,0 +1,16 @@
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+    border-style: solid;
+    border-inline: solid;
+  }
+  input{
+    width: 100%;
+
+  }
